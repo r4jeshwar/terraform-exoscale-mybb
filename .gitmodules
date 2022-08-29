@@ -1,0 +1,4 @@
+[submodule "ansible-role-mybb"]
+	path = ansible-role-mybb
+	url = https://github.com/r4jeshwar/ansible-role-mybb.git
+	branch = main
