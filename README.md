@@ -19,14 +19,14 @@ git submodule update --init
 
 # Create the playbook for task running
 
-Create the `main.yaml` ansible playbook for access the ansible-roles to application running.
+Create the `main.yml` ansible playbook for access the ansible-roles to application running.
 ```
-#main.yaml
+#main.yml
 
 - hosts: all
   become: true
   roles:
-    - <path_to_ansible-role-lufi>
+    - <path_to_ansible-role-mybb>
 ```
 
 # Provide a path of playbook

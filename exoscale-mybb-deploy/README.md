@@ -1,4 +1,4 @@
-# terraform-exoscale-mybb
+# exoscale-mybb-deploy
 
 This terraform plan create the resources of exoscale instance
 
@@ -11,14 +11,14 @@ is a Terraform Module and contains many "submodules" which can be composed toget
 
 | Name | Version |
 |------|---------|
-| terraform | >= 1.1.7 |
-| exoscale | >= 0.35 |
+| terraform | >= 1.2.8 |
+| exoscale | >= 0.40.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| exoscale | >= 0.35 |
+| exoscale | >= 0.40.0 |
 
 ## Resources
 
@@ -51,5 +51,7 @@ Edit the `variables.tf` file to add the variables as per your need.
 
 ## Outputs
 
+| Name | Description |
+|------|-------------|
 | gateway\_url | The url of the mybb gateway |
 | ipv4\_address | The public IP address of the mybb instance |
